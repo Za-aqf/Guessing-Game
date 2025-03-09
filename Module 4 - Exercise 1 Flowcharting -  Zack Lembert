@@ -1,0 +1,12 @@
+Start
+ Num1 = Random number between 1 and 100
+ Get Num2
+  while Num2 is not = to Num1
+    if Num2 > Num1
+      print "too high"
+    else 
+      print "too low"
+    endif
+    Get Num2
+   endwhile
+Stop
